@@ -1,0 +1,381 @@
+/* Reset default styles for margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  color: rgb(83, 79, 79);
+  box-sizing: border-box;
+  
+}
+
+/* Style the header and set its background color */
+header {
+  background-color: #ad82df;
+  display: flex;
+  align-items: center;
+}
+
+#userprofile{
+  height: 24px;
+}
+
+/* Center align the content within the header */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 3rem;
+  min-width: 100%;
+}
+
+.background-image {
+  background-image: url('img/img4.jpg'); /* Replace with your image file */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+ 
+}
+
+
+
+.content-box {
+  position: absolute;
+  top: 150px; /* Adjust as needed */
+  right: 100px; /* Adjust as needed */
+  left: 800px;
+  background-color: rgba(196, 195, 195, 0.8); /* Adjust the opacity as needed */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#loginsignupCard {
+  display: flex;
+  justify-content: space-between;
+}
+
+#sideCard {
+  background-color: #CCCCCC;
+  padding: 20px;
+  border: 1px solid #8e8a8a;
+ 
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+}
+
+.signupA{
+  background-color: #0e0d0d
+}
+
+#fields {
+  width: 450px;
+  padding: 20px;
+  border: 1px solid #8e8a8a;
+  border-radius: 5px;
+  background-color: #CCCCCC;
+  
+}
+
+#fields form {
+  margin-top: 0;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #a464ee;
+  color: white;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: white;
+  color: #d980e3;
+  border-radius: 5px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+form {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #4e4c4c;
+  border-radius: 5px;
+  background-color: #c0c0c0;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: inline-block;
+  width: 120px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  width: 200px;
+}
+
+form .save {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #ad82df;
+  color: white;
+  cursor: pointer;
+}
+
+form .save:hover {
+  background-color: white;
+  color: #d980e3;
+  border-radius: 5px;
+}
+
+.logout {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(75, 73, 73);
+  text-decoration: none;
+}
+
+.logout:hover {
+  text-decoration: underline;
+}
+
+
+.logo{
+  float: left;
+}
+/* Style the logo */
+.logo img {
+
+  height: 35px;
+}
+
+.logo:hover{
+  cursor: pointer;
+}
+.headerA {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 10px;
+}
+.headerA:hover{
+  background-color: #ffffff;
+  color: #d980e3;
+  border-radius: 5px;
+}
+
+.slideshow{
+  width: 100%;
+  height: 700px; /* Adjust the height as needed */
+  position: relative;
+  
+}
+.banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity 0.9s ease-in-out;
+}
+
+.banner img {
+  width: 100%; /* Fill the entire width of the container /
+  height: 100%; / Fill the entire height of the container /
+  object-fit: cover; / Maintain aspect ratio and crop to cover the container */
+}
+
+
+.banner.active{
+  opacity: 1;
+}
+
+
+.user-profile a:first-child {
+  margin-left: 0;
+}
+
+.save{
+  border: none;
+}
+.logout{
+  background-color: white;
+  /* color: black; */
+  border-radius: 5px;
+  margin-left: 0px;
+  padding: 10px;
+}
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #080707;
+}
+
+th {
+  background-color: rgb(211, 211, 211);
+}
+
+
+
+.signupA{
+  background-color: rgb(212, 199, 212);
+}
+
+
+  .google-map {
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          padding: 0 20px 0 20px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          width: 100%;
+      }
+
+   .google-map h3 {
+    background-color: lavender;
+    text-align: center;
+    padding: 10px 0 10px 0;
+   }
+
+      .address-container {
+          background-color: #fff;
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          padding: 20px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          width: 100%;
+      }
+
+      .address-container h2 {
+          color: #333;
+          margin-bottom: 10px;
+      }
+
+      .address {
+          color: #555;
+      }
+
+
+      /* Admin-specific styles */
+      .admin-background {
+        background-image: url('img/img4.jpg'); /* Replace with the path to your background image */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.admin-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #e5e5e5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.admin-container h2 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.admin-form {
+  display: inline-block;
+  flex-direction: column;
+}
+
+.admin-form label {
+  display: inline;
+  margin-bottom: 10px;
+}
+
+.admin-form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.admin-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #a464ee;
+  color: white;
+  cursor: pointer;
+}
+
+.admin-form button:hover {
+  background-color: white;
+  color: #d980e3;
+  border-radius: 5px;
+}
+
+.admin-links {
+  display: block;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.admin-links a {
+  text-decoration: none;
+  color: #9a5ae3;
+  display: inline-block;
+}
+
+.admin-links a:hover {
+  text-decoration: underline;
+}
