@@ -1,0 +1,32 @@
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#loginsignupCard{
+    display: flex;
+    gap: 30px;
+    background-color: rgb(238, 240, 244);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+#sideCard{
+    background-color: rgb(235, 226, 243);
+    padding:  20px;
+    border-radius: 10px;
+    width: 100%;
+    height: 240px;
+
+}
+#fields{
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+}
+input{
+    border: 1px solid gray;
+    border-radius: 10px;
+    
+    height: 30px;
+} */
